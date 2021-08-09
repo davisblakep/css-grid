@@ -1,0 +1,20 @@
+.basic-grid {
+    display: grid;
+    gap: 1rem;
+
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-columns: repeat(12, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.basic-grid-fill {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.basic-grid-fit {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
